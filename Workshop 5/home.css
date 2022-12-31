@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+*/
+
+/* Set the box-sizing for all elements to border-box */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+border-radius: 0%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    border: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 0;
+    
+}
+.content-wrapper {
+    width: 40%;
+    height: 100vh;
+   
+    background-color: rgb(237, 247, 244);
+    padding: 2%;
+    color: #a08a8a;
+    
+}
+.h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    margin-left: 2%;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-family: "Unbounded", cursive;
+}
+
+.h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-left: 2%;
+    padding-top: 50px;
+}
+.date{
+    margin-bottom: 0px;
+    font-weight: 200;
+    margin-left: 2%;
+    padding-top: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.venue{
+    margin-bottom: 0px;
+    font-weight: 200;
+    margin-left: 2%;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 30px;
+}
+
+
+figure {
+    width: 60%;
+    height: 100vh;
+    background-image: url(cr7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.button {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 2%;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 50px;
+    background: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+}
+
+.button a:hover {
+    background: black;
+    color: orange;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .button a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .content-wrapper {
+        padding-bottom: 20px;
+    }
+
+    .content-wrapper,
+    figure {
+        width: 100%;
+    }
+
+    figure {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .button a {
+        text-align: center;
+    }
+}
+/*  */
+/*Task 2*/
+
+
+
+
+
