@@ -1,1 +1,2 @@
 # web-technologie
+WEEKLY WORKSHOPS
