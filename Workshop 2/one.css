@@ -1,0 +1,45 @@
+nav{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    border: 10px;
+    padding: 1px;
+}
+nav a{
+    display: inline-block;
+    margin: 10px 10px;
+    border: 100px;
+    font: serif;
+}
+nav a :hover{
+    height: 30px;
+    width: 8px;
+    background-color: darkblue;
+    box-align: center;
+}
+img{
+    margin-left: 30%;
+}
+
+h1{
+    
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg);
+}
+div{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    
+}
+
+footer{
+    float: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
